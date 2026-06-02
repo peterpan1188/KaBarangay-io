@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-brand-primary: #0A5C4A;     /* Warm deep Filipino emerald / Bayanihan forest */
+  --color-brand-primary-light: #127A63;
+  --color-brand-secondary: #0D7296;   /* Hopeful clear civic blue */
+  --color-brand-accent: #E9C46A;      /* Philippine sun gold */
+  --color-brand-warm: #F4A261;        /* Sunset mango-orange */
+  --color-brand-coral: #E76F51;       /* Warm civic heart terracotta */
+  --color-vintage-cream: #FCFAF7;     /* Clean, soft warm off-white */
+  --color-vintage-sand: #F4EDE2;      /* Cozy warm sand card background */
+  --color-brand-charcoal: #1E2824;    /* Safe, premium text dark slate */
+}
+
+/* Base style resets and customizations if necessary */
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-vintage-cream);
+  color: var(--color-brand-charcoal);
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-sans);
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-vintage-cream);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-brand-primary);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-brand-primary-light);
+}
+

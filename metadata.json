@@ -1,0 +1,6 @@
+{
+  "name": "KaBarangay io",
+  "description": "A modern civic-tech digital governance and welfare platform designed to connect barangay officials and residents through smarter, faster, and more accessible Filipino community services.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
