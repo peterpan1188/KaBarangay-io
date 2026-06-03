@@ -6,6 +6,7 @@ import {
   Phone
 } from 'lucide-react';
 import { motion } from 'motion/react';
+import heroImage from '../assets/images/kabarangay_hero_1780140636347.png';
 
 const getResidentIcon = (index: number) => {
   switch (index) {
@@ -183,7 +184,7 @@ export default function InteractiveFeatureExplorer() {
           <div 
             className="absolute inset-0 bg-cover bg-center z-0 scale-105"
             style={{ 
-              backgroundImage: `url('/src/assets/images/kabarangay_hero_1780140636347.png')`,
+              backgroundImage: `url(${heroImage})`,
               backgroundPosition: 'center 35%'
             }}
           />

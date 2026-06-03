@@ -1,5 +1,6 @@
 import { motion } from 'motion/react';
 import { HeartHandshake, ArrowRight, ShieldCheck, FlameKindling, Info, Award, CheckCircle } from 'lucide-react';
+import heroImage from '../assets/images/kabarangay_hero_1780140636347.png';
 
 interface HeroProps {
   onPartnerClick: () => void;
@@ -108,7 +109,7 @@ export default function Hero({ onPartnerClick, onLearnMoreClick }: HeroProps) {
               {/* Rounded image border */}
               <div className="relative overflow-hidden rounded-2xl aspect-[3/2] bg-vintage-sand">
                 <img
-                  src="/src/assets/images/kabarangay_hero_1780140636347.png"
+                  src={heroImage}
                   alt="Modern Filipino Barangay Community using smartphone app"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover transform hover:scale-102 transition-transform duration-500 ease-out"

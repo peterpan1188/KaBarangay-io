@@ -1,5 +1,6 @@
 import { motion } from 'motion/react';
 import { Users2, Heart, Smartphone } from 'lucide-react';
+import aboutImage from '../assets/images/kabarangay_about_1780140657885.png';
 
 export default function About() {
   const points = [
@@ -68,7 +69,7 @@ export default function About() {
               <div className="bg-[#FAF8F5] p-3 sm:p-5 rounded-[28px] sm:rounded-[36px] border border-[#EBE6DD] relative shadow-[0_12px_40px_-12px_rgba(30,40,36,0.06)] overflow-hidden">
                 <div className="relative overflow-hidden rounded-[20px] sm:rounded-[26px] aspect-[4/3] bg-vintage-sand shadow-inner group">
                   <img
-                    src="/src/assets/images/kabarangay_about_1780140657885.png"
+                    src={aboutImage}
                     alt="Happy multi-generational Filipino family using KaBarangay io platform on veranda"
                     referrerPolicy="no-referrer"
                     className="w-full h-full object-cover select-none transition-transform duration-700 ease-out group-hover:scale-105"
